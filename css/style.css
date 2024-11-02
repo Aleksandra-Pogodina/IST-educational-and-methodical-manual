@@ -1,0 +1,129 @@
+/* Изображение */
+img {
+    max-width: 100%; /* Адаптивное изображение */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+ /* Центрирование подписи в caption */
+figcaption {
+    caption-side: bottom; /* Перенос подписи под таблицу или изображение */
+    font-size: 0.9em; /* Размер текста подписи */
+    color: #555; /* Цвет подписи */
+    text-align: center;
+    padding-top: 8px; /* Отступ сверху для отделения от таблицы */
+}
+
+body {
+    font-size: 1.5em;
+    background-color: #ffffff;
+    padding: 30px 190px 30px 190px;
+}
+
+table {
+    margin: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc; /* Граница ячеек */
+    padding: 5px; /* Внутренние отступы в ячейках */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+th {
+    background-color: #f2f2f2; /* Цвет фона для заголовков столбцов */
+}
+
+caption.table{
+    font-weight: italic;
+    font-size: 1.1em;
+    text-align: right;
+    caption-side: top;
+    padding-right: 10px;
+    color: #555;
+}
+
+h1 {
+    text-align: center; /* Центрирование текста внутри h1 */
+}
+
+p {
+    text-indent: 20px; /* Отступ первой строки в каждом абзаце */
+    margin: 0 0 1em; /* Отступы между абзацами */
+}
+
+a {
+    text-decoration: underline; /* Подчёркивание текста ссылки */
+    color: inherit; /* Устанавливаем цвет ссылки как цвет родителя */
+}
+
+a:hover {
+    color: orange; /* Цвет ссылки при наведении */
+}
+
+
+/* Экран меньше 1024px */
+@media screen and (max-width: 1024px) {
+    body {
+        padding: 20px; /* Уменьшаем отступы для более компактного отображения */
+        font-size: 1.2em; /* Уменьшаем размер шрифта */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Уменьшаем размер заголовка */
+    }
+
+    th, td {
+        padding: 10px; /* Увеличиваем отступы для улучшения читабельности на меньших экранах */
+    }
+
+    img {
+        margin: 10px auto; /* Добавляем небольшой отступ для изображений */
+    }
+}
+
+/* Экран меньше 768px */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 1em; /* Еще меньше размер шрифта */
+    }
+
+    h1 {
+        font-size: 1.2em; /* Уменьшаем заголовок */
+    }
+
+    table {
+        display: block; /* Переключаем таблицу в блочный элемент */
+        overflow-x: auto; /* Добавляем прокрутку для таблицы */
+        margin: 0; /* Убираем внешний отступ */
+    }
+
+    th, td {
+        padding: 8px; /* Уменьшаем отступы для компактного отображения */
+    }
+
+    figcaption {
+        font-size: 0.8em; /* Уменьшаем размер шрифта для подписей */
+    }
+}
+
+/* Экран меньше 480px */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px; /* Еще меньше отступы */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Увеличиваем размер заголовка */
+    }
+
+    th, td {
+        padding: 5px; /* Минимальные отступы для сжатого отображения */
+        font-size: 0.9em; /* Уменьшаем шрифт ячеек */
+    }
+
+    img {
+        margin: 5px auto; /* Минимальные отступы для изображений */
+    }
+}
