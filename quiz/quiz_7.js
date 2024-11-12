@@ -5,7 +5,7 @@ const correctAnswers = {
     q3: "B",
     q4: "B",
     q5: "B",
-    q6: "B",
+    q6: "A",
     q7: "B",
     q8: "B",
     q9: "C",
