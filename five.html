@@ -392,7 +392,7 @@
         онные услуги (сбой)</li>
 </ul>
 
-<h2>Вопросы по главе 5</h2>
+<h3>Вопросы по главе 5</h3>
 <ol>
     <li>Дайте определение информационной системы.</li>
     <li>Что входит в структуру информационной системы?</li>
@@ -400,8 +400,89 @@
     <li>Что такое ITIL, ITSM?</li>
 </ol>
 
-<h2>Задание</h2>
+<h3>Задание</h3>
 <p>В основе информационной системы база данных на MS SQL Server, разработчик пытается подключить базу данных на MS Access. Какую технологию доступа можно применить? Ответ обоснуйте.</p>
+
+<h3>Тест по пятой главе</h3>
+
+    <div id="quiz">
+        <div class="question">
+            <p>1. Что такое информационная система согласно стандарту ISO/IEC 2382:2015?</p>
+            <label><input type="radio" name="q1" value="A"> A) Система, состоящая только из программного обеспечения</label>
+            <label><input type="radio" name="q1" value="B"> B) Система обработки информации, включающая человеческие, технические и финансовые ресурсы</label>
+            <label><input type="radio" name="q1" value="C"> C) Только аппаратное обеспечение для обработки данных</label>
+        </div>
+
+        <div class="question">
+            <p>2. Какое из следующих не является компонентом информационной системы?</p>
+            <label><input type="radio" name="q2" value="A"> A) Функциональные компоненты</label>
+            <label><input type="radio" name="q2" value="B"> B) Компоненты систем обработки данных</label>
+            <label><input type="radio" name="q2" value="C"> C) Личные компьютеры пользователей</label>
+        </div>
+
+        <div class="question">
+            <p>3. Что включает в себя техническое обеспечение информационной системы?</p>
+            <label><input type="radio" name="q3" value="A"> A) Только программное обеспечение</label>
+            <label><input type="radio" name="q3" value="B"> B) Комплекс технических средств и документацию на них</label>
+            <label><input type="radio" name="q3" value="C"> C) Только компьютерные сети</label>
+        </div>
+
+        <div class="question">
+            <p>4. Какое из следующих утверждений верно для математического обеспечения информационной системы?</p>
+            <label><input type="radio" name="q4" value="A"> A) Оно включает только программное обеспечение для обработки данных.</label>
+            <label><input type="radio" name="q4" value="B"> B) Оно состоит из методов, моделей и алгоритмов обработки информации.</label>
+            <label><input type="radio" name="q4" value="C"> C) Оно не имеет отношения к решению задач в информационных системах.</label>
+        </div>
+
+        <div class="question">
+            <p>5. Что такое лингвистическое обеспечение в контексте информационных систем?</p>
+            <label><input type="radio" name="q5" value="A"> A) Совокупность языков программирования, используемых в системе</label>
+            <label><input type="radio" name="q5" value="B"> B) Языки общения персонала с пользователями и программным обеспечением</label>
+            <label><input type="radio" name="q5" value="C"> C) Только терминология, используемая в документации</label>
+        </div>
+
+        <div class="question">
+            <p>6. Какой класс информационных систем предназначен для подготовки и учета производственной деятельности предприятия?</p>
+            <label><input type="radio" name="q6" value="A"> A) Класс А</label>
+            <label><input type="radio" name="q6" value="B"> B) Класс В</label>
+            <label><input type="radio" name="q6" value="C"> C) Класс С</label>
+        </div>
+
+        <div class="question">
+            <p>7. Что такое API (интерфейс программирования приложений)?</p>
+            <label><input type="radio" name="q7" value="A"> A) Набор правил для взаимодействия между пользователем и системой</label>
+            <label><input type="radio" name="q7" value="B"> B) Набор классов и функций, предоставляемых приложением для использования во внешних продуктах</label>
+            <label><input type="radio" name="q7" value="C"> C) Программа для автоматизации процессов в компании</label>
+        </div>
+
+        <div class="question">
+            <p>8. Что такое ITIL?</p>
+            <label><input type="radio" name="q8" value="A"> A) Набор стандартов для управления ИТ-услугами</label>
+            <label><input type="radio" name="q8" value="B"> B) Программное обеспечение для управления проектами</label>
+            <label><input type="radio" name="q8" value="C"> C) Методология разработки программного обеспечения</label>
+        </div>
+
+        <div class="question">
+            <p>9. Какой из следующих стандартов относится к управлению ИТ-услугами?</p>
+            <label><input type="radio" name="q9" value="A"> A) ISO/IEC 27001</label>
+            <label><input type="radio" name="q9" value="B"> B) ISO/IEC 20000</label>
+            <label><input type="radio" name="q9" value="C"> C) ISO/IEC 38500:2015</label>
+        </div>
+
+        <div class="question">
+            <p>10. Что обозначает SOA (сервис-ориентированная архитектура)?</p>
+            <label><input type="radio" name="q10" value="A"> A) Подход к разработке программного обеспечения с использованием распределенных компонентов</label>
+            <label><input type="radio" name="q10" value="B"> B) Стандарт для управления базами данных</label>
+            <label><input type="radio" name="q10" value="C"> C) Методология тестирования программного обеспечения</label>
+        </div>
+    </div>
+
+    <button onclick="checkAnswers()">Проверить ответы</button>
+
+    <div id="result"></div>
+
+    <script src="quiz/quiz_5.js"></script>
+
 
 <h3>Страницы по теме</h3>
     <ul>

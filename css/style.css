@@ -127,3 +127,25 @@ a:hover {
         margin: 5px auto; /* Минимальные отступы для изображений */
     }
 }
+
+.question {
+    margin-bottom: 20px;
+}
+.question p {
+    font-weight: bold;
+}
+.question label {
+    display: block;
+    margin: 5px 0;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}

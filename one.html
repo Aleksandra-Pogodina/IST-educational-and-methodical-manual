@@ -136,10 +136,10 @@
     
     <h3>Вопросы по главе 1</h3>
     <ol>
-    <li>Дайте определение дхформяциондых технологий.</li>
+    <li>Дайте определение информационных технологий.</li>
     <li>Опишите составляющие информационной технологии.</li>
-    <li>По каким признакам клвссифищгруются информационные технологии.</li>
-    <li>Приведите примерш информационных технологий по каждому признаку.</li>
+    <li>По каким признакам классифицируются информационные технологии.</li>
+    <li>Приведите пример информационных технологий по каждому признаку.</li>
     </ol>
 
     <h3>Задание</h3>
@@ -147,11 +147,93 @@
     ресурсов РФ по информационным технологиям с указанием владельцев
     данных ресурсов.</p>
 
+
+    <h3>Тест по первой главе</h3>
+
+    <div id="quiz">
+        <div class="question">
+            <p>1. Что такое информационная технология (ИТ)?</p>
+            <label><input type="radio" name="q1" value="A"> A) Совокупность методов обработки и хранения информации</label>
+            <label><input type="radio" name="q1" value="B"> Б) Процесс, использующий средства и методы сбора, хранения и обработки первичной информации для получения качественно новой информации</label>
+            <label><input type="radio" name="q1" value="C"> C) Набор программного обеспечения для работы с данными</label>
+        </div>
+
+        <div class="question">
+            <p>2. Какой из следующих компонентов не является частью информационной технологии?</p>
+            <label><input type="radio" name="q2" value="A"> A) Информационные ресурсы</label>
+            <label><input type="radio" name="q2" value="B"> Б) Технические средства</label>
+            <label><input type="radio" name="q2" value="C"> C) Системное программное обеспечение</label>
+        </div>
+
+        <div class="question">
+            <p>3. Какое свойство информационных технологий связано с повышением эффективности производства?</p>
+            <label><input type="radio" name="q3" value="A"> A) Целостность</label>
+            <label><input type="radio" name="q3" value="B"> Б) Целесообразность</label>
+            <label><input type="radio" name="q3" value="C"> C) Прогрессивность во времени</label>
+        </div>
+
+        <div class="question">
+            <p>4. По какому признаку классифицируются автоматизированные информационные технологии?</p>
+            <label><input type="radio" name="q4" value="A"> A) По количеству пользователей</label>
+            <label><input type="radio" name="q4" value="B"> Б) По способу реализации в автоматизированных информационных системах (АИС)</label>
+            <label><input type="radio" name="q4" value="C"> C) По стоимости программного обеспечения</label>
+        </div>
+
+        <div class="question">
+            <p>5. Что включает в себя понятие "информационные ресурсы"?</p>
+            <label><input type="radio" name="q5" value="A"> A) Только текстовые документы</label>
+            <label><input type="radio" name="q5" value="B"> Б) Совокупность данных, представляющих ценность для организации</label>
+            <label><input type="radio" name="q5" value="C"> C) Лишь графические изображения</label>
+        </div>
+
+        <div class="question">
+            <p>6. Какой из следующих типов ИТ связан с поддержкой принятия решений?</p>
+            <label><input type="radio" name="q6" value="A"> A) Автоматизация функций управления</label>
+            <label><input type="radio" name="q6" value="B"> Б) Экспертная поддержка</label>
+            <label><input type="radio" name="q6" value="C"> C) Электронная обработка данных</label>
+        </div>
+
+        <div class="question">
+            <p>7. Что подразумевается под прогрессивностью во времени в контексте ИТ?</p>
+            <label><input type="radio" name="q7" value="A"> A) Способность ИТ к модернизации и расширению</label>
+            <label><input type="radio" name="q7" value="B"> Б) Увеличение числа пользователей ИТ</label>
+            <label><input type="radio" name="q7" value="C"> C) Снижение затрат на обработку данных</label>
+        </div>
+
+        <div class="question">
+            <p>8. Какой тип пользовательского интерфейса не существует в классификации ИТ?</p>
+            <label><input type="radio" name="q8" value="A"> A) Пакетные интерфейсы</label>
+            <label><input type="radio" name="q8" value="B"> Б) Диалоговые интерфейсы</label>
+            <label><input type="radio" name="q8" value="C"> C) Графические интерфейсы командной строки (CLI)</label>
+        </div>
+
+        <div class="question">
+            <p>9. Какой из следующих методов не относится к методам обработки данных в ИТ?</p>
+            <label><input type="radio" name="q9" value="A"> A) Моделирование процессов</label>
+            <label><input type="radio" name="q9" value="B"> Б) Кодирование информации</label>
+            <label><input type="radio" name="q9" value="C"> C) Использование программного обеспечения для анализа данных</label>
+        </div>
+
+        <div class="question">
+            <p>10. Что такое электронный офис в контексте классификации ИТ?</p>
+            <label><input type="radio" name="q10" value="A"> A) Система для создания отчетов</label>
+            <label><input type="radio" name="q10" value="B"> Б) Наличие интегрированных прикладных программ, обеспечивающих комплексную реализацию задач предметной области</label>
+            <label><input type="radio" name="q10" value="C"> C) Программа для управления финансами</label>
+        </div>
+    </div>
+
+    <button onclick="checkAnswers()">Проверить ответы</button>
+
+    <div id="result"></div>
+    
+
     <h3>Страницы по теме</h3>
     <ul>
         <li><p><a href="index.html">ИСИТ. Учебное пособие.</a></p></li>
         <li><p>Следующая глава: <a href="two.html">Глава 2. Информационные процессы.</a></p></li>
     </ul>
+
+    <script src="quiz/quiz_1.js"></script>
 
 </body>
 </html>
